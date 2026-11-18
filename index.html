@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="Política de privacidad de Navaja, creada por Karim G. Herramientas sin conexión y sin anuncios.">
+
+  <meta name="color-scheme" content="light dark">
+
+  <meta name="referrer" content="no-referrer">
+
+  <title>Política de privacidad · Navaja</title>
+
+  <style>
+
+    :root {
+
+      color-scheme: light dark;
+
+      --bg: #f5f6f0;
+
+      --card: #ffffff;
+
+      --text: #192920;
+
+      --muted: #52645a;
+
+      --accent: #28634f;
+
+      --line: #dce3db;
+
+      --soft: #eaf3e9;
+
+    }
+
+    @media (prefers-color-scheme: dark) {
+
+      :root {
+
+        --bg: #101814;
+
+        --card: #1b2821;
+
+        --text: #edf6ee;
+
+        --muted: #b4c5ba;
+
+        --accent: #a8e5c0;
+
+        --line: #36483c;
+
+        --soft: #233a2c;
+
+      }
+
+    }
+
+    * {
+
+      box-sizing: border-box;
+
+    }
+
+    body {
+
+      margin: 0;
+
+      background: var(--bg);
+
+      color: var(--text);
+
+      font: 17px/1.7 system-ui, -apple-system, BlinkMacSystemFont,
+
+            "Segoe UI", sans-serif;
+
+    }
+
+    main {
+
+      width: min(100% - 32px, 820px);
+
+      margin: 40px auto;
+
+      padding: clamp(22px, 5vw, 48px);
+
+      background: var(--card);
+
+      border: 1px solid var(--line);
+
+      border-radius: 24px;
+
+    }
+
+    header {
+
+      padding-bottom: 24px;
+
+      border-bottom: 1px solid var(--line);
+
+    }
+
+    .top {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      flex-wrap: wrap;
+
+      gap: 16px;
+
+      margin-bottom: 24px;
+
+    }
+
+    .brand {
+
+      margin: 0;
+
+      color: var(--accent);
+
+      font-weight: 750;
+
+      font-size: 24px;
+
+    }
+
+    nav {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 8px;
+
+    }
+
+    nav a {
+
+      display: inline-flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      min-height: 44px;
+
+      padding: 7px 14px;
+
+      border: 1px solid var(--line);
+
+      border-radius: 999px;
+
+      font-size: 14px;
+
+      font-weight: 600;
+
+      text-decoration: none;
+
+    }
+
+    nav a[aria-current="page"] {
+
+      background: var(--soft);
+
+      border-color: var(--accent);
+
+    }
+
+    h1 {
+
+      margin: 0 0 12px;
+
+      font-size: clamp(28px, 6vw, 40px);
+
+      line-height: 1.2;
+
+      letter-spacing: -.025em;
+
+    }
+
+    h2 {
+
+      margin: 30px 0 10px;
+
+      font-size: 21px;
+
+      line-height: 1.35;
+
+    }
+
+    p {
+
+      margin: 12px 0;
+
+    }
+
+    li {
+
+      margin: 8px 0;
+
+    }
+
+    ul {
+
+      padding-left: 23px;
+
+    }
+
+    .muted,
+
+    footer {
+
+      color: var(--muted);
+
+    }
+
+    .summary {
+
+      margin: 26px 0;
+
+      padding: 18px 22px;
+
+      background: var(--soft);
+
+      border-left: 4px solid var(--accent);
+
+      border-radius: 0 14px 14px 0;
+
+    }
+
+    a {
+
+      color: var(--accent);
+
+      text-underline-offset: 3px;
+
+      overflow-wrap: anywhere;
+
+    }
+
+    a:focus-visible {
+
+      outline: 3px solid var(--accent);
+
+      outline-offset: 5px;
+
+      border-radius: 2px;
+
+    }
+
+    code {
+
+      overflow-wrap: anywhere;
+
+    }
+
+    footer {
+
+      margin-top: 30px;
+
+      padding-top: 20px;
+
+      border-top: 1px solid var(--line);
+
+      font-size: 14px;
+
+    }
+
+    @media print {
+
+      body {
+
+        background: #ffffff;
+
+        color: #000000;
+
+      }
+
+      main {
+
+        width: 100%;
+
+        margin: 0;
+
+        padding: 0;
+
+        border: 0;
+
+      }
+
+      nav {
+
+        display: none;
+
+      }
+
+      .summary {
+
+        background: none;
+
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+<main>
+
+  <header>
+
+    <div class="top">
+
+      <p class="brand">Navaja</p>
+
+      <nav aria-label="Idioma">
+
+        <a href="./index.html"
+
+           lang="es"
+
+           hreflang="es"
+
+           aria-current="page">Español</a>
+
+        <a href="./en.html"
+
+           lang="en"
+
+           hreflang="en">English</a>
+
+      </nav>
+
+    </div>
+
+    <h1>Política de privacidad</h1>
+
+    <p class="muted">
+
+      Creada por Karim G · Última actualización:
+
+      <time datetime="2026-11-18">18 de noviembre de 2026</time>
+
+    </p>
+
+  </header>
+
+  <div class="summary">
+
+    <strong>Tus herramientas funcionan en tu dispositivo.</strong>
+
+    <p>
+
+      Navaja funciona sin conexión, no incluye anuncios ni rastreadores
+
+      y no envía datos personales al desarrollador ni a servidores externos.
+
+    </p>
+
+  </div>
+
+  <section aria-labelledby="responsable">
+
+    <h2 id="responsable">1. Aplicación y responsable</h2>
+
+    <p>
+
+      Esta política corresponde a <strong>Navaja</strong>, la aplicación
+
+      de herramientas para Android creada por <strong>Karim G</strong>,
+
+      con identificador <code>cl.navaja.app</code>. Explica qué información
+
+      utiliza en el dispositivo y cómo puedes controlarla.
+
+    </p>
+
+    <p>
+
+      Navaja no requiere una cuenta, nombre, correo electrónico ni
+
+      registro para utilizar sus herramientas.
+
+    </p>
+
+  </section>
+
+  <section aria-labelledby="datos">
+
+    <h2 id="datos">2. Información que utiliza la app</h2>
+
+    <p>
+
+      Navaja no recopila datos para transmitirlos fuera del dispositivo.
+
+      Algunas funciones necesitan procesar o guardar información local:
+
+    </p>
+
+    <ul>
+
+      <li>
+
+        <strong>Calculadora:</strong> guarda los últimos 50 cálculos
+
+        y sus resultados en el almacenamiento privado de la app.
+
+        Puedes borrar este historial desde la calculadora.
+
+      </li>
+
+      <li>
+
+        <strong>Conversor y Tu día:</strong> los valores y la fecha
+
+        que introduces se utilizan para realizar los cálculos en el
+
+        dispositivo. La fecha de nacimiento no se envía a ningún servidor.
+
+      </li>
+
+      <li>
+
+        <strong>Cámara:</strong> muestra la vista previa y permite
+
+        tomar fotos. Las fotografías se guardan en
+
+        <code>Pictures/Navaja</code>, dentro del almacenamiento multimedia
+
+        del dispositivo. La app recuerda una referencia a la última
+
+        foto para abrirla cuando lo solicitas.
+
+      </li>
+
+      <li>
+
+        <strong>Brújula y nivel:</strong> utilizan los sensores disponibles
+
+        para calcular orientación e inclinación. No utilizan ubicación
+
+        GPS ni guardan un historial de sus lecturas. La calibración
+
+        del nivel se conserva localmente.
+
+      </li>
+
+      <li>
+
+        <strong>Reloj, batería e información del sistema:</strong>
+
+        muestran datos que proporciona Android, como fecha, hora,
+
+        porcentaje y temperatura de batería, modelo, versión del
+
+        sistema y características de la pantalla. No se envían
+
+        al desarrollador.
+
+      </li>
+
+      <li>
+
+        <strong>Preferencias:</strong> el tema, el idioma y determinados
+
+        ajustes, como la cámara seleccionada, se conservan localmente
+
+        mediante la app o Android.
+
+      </li>
+
+      <li>
+
+        <strong>Calendario:</strong> muestra fechas y no accede a tus
+
+        eventos, cuentas ni calendarios personales.
+
+      </li>
+
+    </ul>
+
+  </section>
+
+  <section aria-labelledby="permisos">
+
+    <h2 id="permisos">3. Permisos y controles del dispositivo</h2>
+
+    <p>
+
+      Navaja solicita el permiso de <strong>cámara</strong> para tomar
+
+      fotografías y controlar el flash de la linterna. Puedes denegarlo
+
+      o revocarlo desde los ajustes de Android; las funciones que no
+
+      lo necesitan siguen disponibles.
+
+    </p>
+
+    <p>
+
+      Cuando no hay flash, la linterna puede mostrar una pantalla
+
+      blanca con brillo máximo únicamente después de tu confirmación.
+
+      El ajuste afecta a la ventana de Navaja y se restaura al apagar
+
+      esta función o salir de ella.
+
+    </p>
+
+    <p>
+
+      Los botones de música envían órdenes de anterior, reproducir/pausar
+
+      y siguiente al sistema. Navaja no consulta el título de la canción,
+
+      tus notificaciones ni tu biblioteca musical.
+
+    </p>
+
+    <p>
+
+      La app no solicita permisos de Internet, ubicación, micrófono,
+
+      contactos, Bluetooth ni Wi-Fi.
+
+    </p>
+
+  </section>
+
+  <section aria-labelledby="compartir">
+
+    <h2 id="compartir">4. Transmisión y acceso de terceros</h2>
+
+    <p>
+
+      Navaja no vende datos, no incorpora publicidad, analítica ni
+
+      servicios propios de recopilación de fallos, y no dispone de
+
+      servidores o sincronización propios.
+
+    </p>
+
+    <p>
+
+      Si eliges abrir una fotografía, Android la entrega a la
+
+      aplicación de galería o visor correspondiente. Las fotos
+
+      guardadas pueden ser accesibles para otras aplicaciones a las
+
+      que hayas concedido permiso. Si utilizas una galería con copia
+
+      en la nube, esa función depende de sus ajustes y política de
+
+      privacidad; Navaja no realiza esa subida.
+
+    </p>
+
+    <p>
+
+      Android, Google Play y las aplicaciones externas que decidas
+
+      utilizar gestionan sus propios servicios conforme a sus
+
+      respectivas políticas.
+
+    </p>
+
+  </section>
+
+  <section aria-labelledby="conservacion">
+
+    <h2 id="conservacion">5. Conservación y eliminación</h2>
+
+    <ul>
+
+      <li>
+
+        <strong>Historial:</strong> permanece en el dispositivo hasta
+
+        que lo borras, eliminas los datos de Navaja o desinstalas
+
+        la app. Al superar 50 cálculos, se elimina el más antiguo.
+
+      </li>
+
+      <li>
+
+        <strong>Preferencias y calibración:</strong> puedes
+
+        restablecerlas mediante los controles disponibles o borrando
+
+        los datos de la app desde Android. El idioma también puede
+
+        gestionarse desde los ajustes de idioma por aplicación.
+
+      </li>
+
+      <li>
+
+        <strong>Fotos:</strong> permanecen en el almacenamiento
+
+        multimedia hasta que las eliminas desde la galería o un
+
+        gestor de archivos. Desinstalar Navaja no implica eliminar
+
+        esas fotografías ni las copias que hayas realizado con
+
+        otros servicios.
+
+      </li>
+
+    </ul>
+
+    <p>
+
+      El desarrollador no recibe estos datos locales y no puede
+
+      consultarlos ni borrarlos remotamente. Navaja no tiene cuentas
+
+      de usuario que deban eliminarse.
+
+    </p>
+
+  </section>
+
+  <section aria-labelledby="seguridad">
+
+    <h2 id="seguridad">6. Protección de la información</h2>
+
+    <p>
+
+      El historial y las preferencias se guardan en el espacio privado
+
+      de la app, sujeto a las protecciones de Android. Las fotografías
+
+      se guardan en el espacio multimedia compartido del dispositivo.
+
+      Navaja no realiza copias de seguridad propias ni añade conexiones
+
+      de red para tratar esta información.
+
+    </p>
+
+  </section>
+
+  <section aria-labelledby="web">
+
+    <h2 id="web">7. Esta página de privacidad</h2>
+
+    <p>
+
+      Esta página se aloja en GitHub Pages. Su contenido no añade
+
+      cookies, formularios, herramientas de analítica ni recursos
+
+      de seguimiento. Al visitar una página de GitHub Pages,
+
+      GitHub registra la dirección IP del visitante por motivos
+
+      de seguridad, según su
+
+      <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+
+         rel="noopener noreferrer">política de privacidad</a>.
+
+      Esto corresponde al alojamiento de esta web y es independiente
+
+      del funcionamiento sin conexión de Navaja.
+
+    </p>
+
+  </section>
+
+  <section aria-labelledby="contacto">
+
+    <h2 id="contacto">8. Contacto</h2>
+
+    <p>
+
+      Para consultas sobre esta política o la privacidad de Navaja,
+
+      contacta con Karim G en
+
+      <a href="mailto:karim.g.development@gmail.com">karim.g.development@gmail.com</a>.
+
+    </p>
+
+    <p>
+
+      Si escribes voluntariamente, el desarrollador recibirá la
+
+      dirección de correo y la información que incluyas en el
+
+      mensaje para atender tu consulta. Esa correspondencia se
+
+      conservará durante el tiempo necesario para gestionarla
+
+      y atender las obligaciones legales aplicables.
+
+    </p>
+
+  </section>
+
+  <section aria-labelledby="cambios">
+
+    <h2 id="cambios">9. Cambios de esta política</h2>
+
+    <p>
+
+      Esta política puede actualizarse si cambian las funciones
+
+      o el tratamiento de información de Navaja. La versión vigente
+
+      se publicará en esta página con su fecha de actualización.
+
+    </p>
+
+  </section>
+
+  <footer>
+
+    Navaja · Creada por Karim G · Sin conexión. Sin anuncios.
+
+  </footer>
+
+</main>
+
+</body>
+
+</html>
