@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for Navaja, created by Karim G. Offline tools without ads.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="referrer" content="no-referrer">
+  <title>Privacy Policy · Navaja</title>
+
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f5f6f0;
+      --card: #ffffff;
+      --text: #192920;
+      --muted: #52645a;
+      --accent: #28634f;
+      --line: #dce3db;
+      --soft: #eaf3e9;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101814;
+        --card: #1b2821;
+        --text: #edf6ee;
+        --muted: #b4c5ba;
+        --accent: #a8e5c0;
+        --line: #36483c;
+        --soft: #233a2c;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 17px/1.7 system-ui, -apple-system, BlinkMacSystemFont,
+            "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(100% - 32px, 820px);
+      margin: 40px auto;
+      padding: clamp(22px, 5vw, 48px);
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+    }
+
+    header {
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .brand {
+      margin: 0;
+      color: var(--accent);
+      font-weight: 750;
+      font-size: 24px;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    nav a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 7px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    nav a[aria-current="page"] {
+      background: var(--soft);
+      border-color: var(--accent);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(28px, 6vw, 40px);
+      line-height: 1.2;
+      letter-spacing: -.025em;
+    }
+
+    h2 {
+      margin: 30px 0 10px;
+      font-size: 21px;
+      line-height: 1.35;
+    }
+
+    p {
+      margin: 12px 0;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    ul {
+      padding-left: 23px;
+    }
+
+    .muted,
+    footer {
+      color: var(--muted);
+    }
+
+    .summary {
+      margin: 26px 0;
+      padding: 18px 22px;
+      background: var(--soft);
+      border-left: 4px solid var(--accent);
+      border-radius: 0 14px 14px 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-underline-offset: 3px;
+      overflow-wrap: anywhere;
+    }
+
+    a:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 5px;
+      border-radius: 2px;
+    }
+
+    code {
+      overflow-wrap: anywhere;
+    }
+
+    footer {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      font-size: 14px;
+    }
+
+    @media print {
+      body {
+        background: #ffffff;
+        color: #000000;
+      }
+
+      main {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+
+      nav {
+        display: none;
+      }
+
+      .summary {
+        background: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<main>
+  <header>
+    <div class="top">
+      <p class="brand">Navaja</p>
+
+      <nav aria-label="Language">
+        <a href="./index.html"
+           lang="es"
+           hreflang="es">Español</a>
+        <a href="./en.html"
+           lang="en"
+           hreflang="en"
+           aria-current="page">English</a>
+      </nav>
+    </div>
+
+    <h1>Privacy Policy</h1>
+
+    <p class="muted">
+      Created by Karim G · Last updated:
+      <time datetime="2026-11-18">November 18, 2026</time>
+    </p>
+  </header>
+
+  <div class="summary">
+    <strong>Your tools run on your device.</strong>
+    <p>
+      Navaja works offline, contains no ads or trackers, and does not
+      send personal data to the developer or external servers.
+    </p>
+  </div>
+
+  <section aria-labelledby="developer">
+    <h2 id="developer">1. Application and developer</h2>
+
+    <p>
+      This policy applies to <strong>Navaja</strong>, the Android
+      tools application created by <strong>Karim G</strong>, with
+      application ID <code>cl.navaja.app</code>. It explains what
+      information the app uses on your device and how you can
+      control it.
+    </p>
+
+    <p>
+      Navaja does not require an account, name, email address or
+      registration to use its tools.
+    </p>
+  </section>
+
+  <section aria-labelledby="data">
+    <h2 id="data">2. Information used by the app</h2>
+
+    <p>
+      Navaja does not collect data for transmission outside your
+      device. Some features need to process or store information
+      locally:
+    </p>
+
+    <ul>
+      <li>
+        <strong>Calculator:</strong> stores your last 50 calculations
+        and their results in the app's private storage. You can
+        delete this history from the calculator.
+      </li>
+
+      <li>
+        <strong>Unit converter and birthday tool:</strong> the values
+        and date you enter are used to perform calculations on your
+        device. Your date of birth is not sent to any server.
+      </li>
+
+      <li>
+        <strong>Camera:</strong> displays a preview and lets you
+        take photos. Photographs are saved in
+        <code>Pictures/Navaja</code>, within your device's media
+        storage. The app remembers a reference to the last photo
+        so it can open it when you request it.
+      </li>
+
+      <li>
+        <strong>Compass and level:</strong> use the available sensors
+        to calculate orientation and tilt. They do not use GPS
+        location or keep a history of sensor readings. Level
+        calibration is stored locally.
+      </li>
+
+      <li>
+        <strong>Clock, battery and system information:</strong>
+        display information provided by Android, such as the date,
+        time, battery percentage and temperature, device model,
+        system version and display characteristics. This information
+        is not sent to the developer.
+      </li>
+
+      <li>
+        <strong>Preferences:</strong> the theme, language and certain
+        settings, such as the selected camera, are stored locally
+        by the app or Android.
+      </li>
+
+      <li>
+        <strong>Calendar:</strong> displays dates and does not access
+        your events, accounts or personal calendars.
+      </li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="permissions">
+    <h2 id="permissions">3. Permissions and device controls</h2>
+
+    <p>
+      Navaja requests <strong>camera</strong> permission to take
+      photographs and control the flashlight. You can deny or revoke
+      this permission in Android settings; features that do not
+      require it remain available.
+    </p>
+
+    <p>
+      When no flash is available, the flashlight can display a white
+      screen at maximum brightness only after your confirmation.
+      This adjustment applies to Navaja's window and is restored
+      when you turn off or leave this feature.
+    </p>
+
+    <p>
+      The music buttons send previous, play/pause and next commands
+      to the system. Navaja does not read the song title, your
+      notifications or your music library.
+    </p>
+
+    <p>
+      The app does not request Internet, location, microphone,
+      contacts, Bluetooth or Wi-Fi permissions.
+    </p>
+  </section>
+
+  <section aria-labelledby="sharing">
+    <h2 id="sharing">4. Transmission and third-party access</h2>
+
+    <p>
+      Navaja does not sell data, include advertising, analytics or
+      its own crash-reporting services, or operate its own servers
+      or synchronization services.
+    </p>
+
+    <p>
+      If you choose to open a photograph, Android passes it to the
+      corresponding gallery or image viewer. Saved photographs may
+      be accessible to other applications you have granted permission
+      to use them. If you use a gallery with cloud backup, that
+      feature depends on its settings and privacy policy; Navaja
+      does not perform that upload.
+    </p>
+
+    <p>
+      Android, Google Play and any external applications you choose
+      to use manage their own services under their respective policies.
+    </p>
+  </section>
+
+  <section aria-labelledby="retention">
+    <h2 id="retention">5. Retention and deletion</h2>
+
+    <ul>
+      <li>
+        <strong>History:</strong> remains on your device until you
+        delete it, clear Navaja's app data or uninstall the app.
+        When the history exceeds 50 calculations, the oldest
+        calculation is removed.
+      </li>
+
+      <li>
+        <strong>Preferences and calibration:</strong> you can reset
+        them using the available controls or by clearing the app's
+        data in Android. The language can also be managed through
+        Android's per-app language settings.
+      </li>
+
+      <li>
+        <strong>Photos:</strong> remain in your device's media storage
+        until you delete them using a gallery or file manager.
+        Uninstalling Navaja does not delete these photographs or
+        copies you have made using other services.
+      </li>
+    </ul>
+
+    <p>
+      The developer does not receive this local information and
+      cannot access or delete it remotely. Navaja has no user
+      accounts that need to be deleted.
+    </p>
+  </section>
+
+  <section aria-labelledby="security">
+    <h2 id="security">6. Information protection</h2>
+
+    <p>
+      History and preferences are stored in the app's private
+      storage, subject to Android's protections. Photographs are
+      saved in the device's shared media storage. Navaja does not
+      create its own backups or add network connections to
+      process this information.
+    </p>
+  </section>
+
+  <section aria-labelledby="website">
+    <h2 id="website">7. This privacy policy website</h2>
+
+    <p>
+      This page is hosted on GitHub Pages. Its content does not
+      add cookies, forms, analytics tools or tracking resources.
+      When a GitHub Pages site is visited, GitHub logs the visitor's
+      IP address for security purposes, as described in its
+      <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+         rel="noopener noreferrer">privacy statement</a>.
+      This relates to the hosting of this website and is separate
+      from Navaja's offline operation.
+    </p>
+  </section>
+
+  <section aria-labelledby="contact">
+    <h2 id="contact">8. Contact</h2>
+
+    <p>
+      For questions about this policy or privacy in Navaja,
+      contact Karim G at
+      <a href="mailto:karim.g.development@gmail.com">karim.g.development@gmail.com</a>.
+    </p>
+
+    <p>
+      If you voluntarily send an email, the developer will receive
+      your email address and the information included in your
+      message to respond to your inquiry. This correspondence
+      will be retained for as long as necessary to handle the
+      inquiry and meet applicable legal obligations.
+    </p>
+  </section>
+
+  <section aria-labelledby="changes">
+    <h2 id="changes">9. Changes to this policy</h2>
+
+    <p>
+      This policy may be updated if Navaja's features or information
+      handling practices change. The current version will be
+      published on this page with its update date.
+    </p>
+  </section>
+
+  <footer>
+    Navaja · Created by Karim G · Offline. No ads.
+  </footer>
+</main>
+</body>
+</html>
